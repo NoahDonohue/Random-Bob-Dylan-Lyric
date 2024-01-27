@@ -110,13 +110,13 @@ Play Moonlight Sonata in F sharp`, `2020`, `Rough and Rowdy Ways`, `Murder Most 
 
 function random_question() {
   const rand_question = questions[Math.floor(Math.random()*questions.length)];
-  console.log(rand_question[0] + '\n' + rand_question[3] + '\n' + rand_question[1] + '\n' + rand_question[2]);
+  console.log(rand_question[0] + '\n' + rand_question[3] + '\n' + rand_question[1] + '\n' + rand_question[2] + '\n' + questions.length);
   update_quote_elements(rand_question)
 }
 
 function random_lyric() {
   const rand_lyric = lyrics[Math.floor(Math.random()*questions.length)];
-  console.log(rand_lyric[0] + '\n' + rand_lyric[3] + '\n' + rand_lyric[1] + '\n' + rand_lyric[2]);
+  console.log(rand_lyric[0] + '\n' + rand_lyric[3] + '\n' + rand_lyric[1] + '\n' + rand_lyric[2] + '\n' + questions.length);
   update_quote_elements(rand_lyric)
 }
   
