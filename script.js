@@ -116,7 +116,7 @@ function random_question() {
 
 function random_lyric() {
   const rand_lyric = lyrics[Math.floor(Math.random()*lyrics.length)];
-  console.log(rand_lyric[0] + '\n' + rand_lyric[3] + '\n' + rand_lyric[1] + '\n' + rand_lyric[2] + '\n' + questions.length);
+  console.log(rand_lyric[0] + '\n' + rand_lyric[3] + '\n' + rand_lyric[1] + '\n' + rand_lyric[2] + '\n' + lyrics.length);
   update_quote_elements(rand_lyric)
 }
   
